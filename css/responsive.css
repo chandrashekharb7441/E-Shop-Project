@@ -1,0 +1,227 @@
+@media (max-width:1030px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 60% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-95%, -50%);
+    }
+    .Special .countdown-container .countdown-counter li{
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media (max-width:991px){
+    .home .home-banner .home-banner-text{
+        transform: translate(-85%, -50%);
+    }
+    .Special .countdown-container{
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+}
+@media (max-width:600px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 50% center;
+        min-height: 420px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 0.5rem 1.5rem;
+    }
+    .testimonial{
+        font-size: 1rem;
+        padding-top: 2rem;
+    }
+    .testimonial .testimonial-wrapper img{
+        width: 7rem;
+        height: 7rem;  
+    }
+    .copyright p,
+    .copyright a{
+        font-size: 1rem;
+    }
+
+}
+@media (max-width:400px){
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 0.4rem 1.3rem ;
+    }
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 50% center;
+        min-height: 350px;
+        margin-left: -100px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        transform: translate(-40%, -50%);
+    }
+    .testimonial{
+        font-size: 0.7rem;
+        padding-top: 1rem;
+    }
+    .testimonial .testimonial-wrapper img{
+        width: 5rem;
+        height: trem;  
+    }
+    .copyright p,
+    .copyright a{
+        font-size: 0.7543rem;
+        margin: 0%;
+    }
+}
+@media (min-width:1200px){
+    #offer1{
+        height: 400px;
+        background-size: 400px 400px;
+    }
+    #offer4{
+        height: 400px;
+    }
+    #offer1 div,#offer4 div{
+        padding-top: 80%;
+    }
+    #offer2, #offer3{
+        height: 190px;
+        background-size: 100% 190px;
+        background-repeat: no-repeat;
+    }
+    #offer2 div, #offer3 div{
+        padding-top: 20%;
+    }
+    
+}
+@media (max-width:1200px){
+    #offer1{
+        height: 400px;
+        background-size: 300px 400px;
+    }
+    #offer4{
+        height: 400px;
+        background-size: 250px 400px;
+    }
+    #offer1 div,#offer4 div{
+        padding-top: 80%;
+    }
+    #offer2, #offer3{
+        height: 190px;
+        background-size: 100% 190px;
+        background-repeat: no-repeat;
+    }
+    #offer2 div, #offer3 div{
+        padding-top: 20%;
+    }
+    
+}
+@media (max-width:992px){
+    #offer1{
+        height: 400px;
+        background-size: 400px 400px;
+    }
+    #offer4{
+        height: 400px;
+    }
+    #offer1 div,#offer4 div{
+        padding-top: 80%;
+    }
+    #offer2, #offer3{
+        height: 190px;
+        background-size: 100% 190px;
+        background-repeat: no-repeat;
+    }
+    #offer2 div, #offer3 div{
+        padding-top: 20%;
+    }
+    
+}
+@media (max-width:768px){
+    #offer1{
+        height: 300px;
+        background-size: 300px 300px;
+    }
+    #offer4{
+        height: 300px;
+        background-size: 300px 300px;
+    }
+    #offer1 div,#offer4 div{
+        padding-top: 55%;
+    }
+    #offer2, #offer3{
+        height: 140px;
+        background-size: 100% 140px;
+        background-repeat: no-repeat;
+    }
+    #offer2 div, #offer3 div{
+        padding-top: 1%;
+    }
+    #offer1 div h1,#offer2 div h2,#offer3 div h2,#offer4 div h1{
+        font-size: 30px ;
+    }
+    #offer1 div h3,#offer2 div h4,#offer3 div h4,#offer4 div h3{
+        font-size: 20px;
+    }
+    #offer1 div a,#offer2 div a,#offer3 div a,#offer4 div a{
+        font-size: 20px;
+    }
+    .Special{
+        padding: 4rem 0;
+    }
+    .Special .countdown-container .countdown-counter li{
+        padding: 1rem;
+        width: 20%;
+    }
+    .copyright p,
+    .copyright a{
+        font-size: 0.9rem;
+        padding: 0rem;
+    }
+}
+@media (max-width:575px){
+    #offer1{
+        height: 200px;
+        background-size: 200px 200px;
+    }
+    #offer4{
+        height: 200px;
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+    }
+    #offer1 div,#offer4 div{
+        padding-top: 10%;
+        padding-left: 50%;
+    }
+    #offer2, #offer3{
+        height: 140px;
+        background-size: 200px 140px;
+        background-repeat: no-repeat;
+    }
+    #offer2 div, #offer3 div{
+        padding-top: 1%;
+        padding-left:50% ;
+        color: red;
+    }
+    #offer1 div h1,#offer2 div h2,#offer3 div h2,#offer4 div h1{
+        font-size: 30px ;
+    }
+    #offer1 div h3,#offer2 div h4,#offer3 div h4,#offer4 div h3{
+        font-size: 20px;
+    }
+    #offer1 div a,#offer2 div a,#offer3 div a,#offer4 div a{
+        font-size: 20px;
+    }
+}
+
